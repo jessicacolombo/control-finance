@@ -50,6 +50,7 @@ export function Form({ setListTransactions, setAllTransactions }) {
             placeholder="1"
             value={value}
             onChange={(event) => setValue(event.target.value)}
+            min={0}
           />
         </div>
         <div className="form-entries-div__input">

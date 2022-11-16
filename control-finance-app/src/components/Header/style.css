@@ -18,12 +18,17 @@
   width: 85px;
   font-size: 14px;
   margin-right: 10px;
-  cursor: pointer;
 }
 
-.grey-button:active {
+.grey-button-active {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
   background-color: var(--color-primary);
   color: var(--white);
+  width: 85px;
+  font-size: 14px;
+  margin-right: 10px;
 }
 
 .menu-nav {

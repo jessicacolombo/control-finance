@@ -6,6 +6,8 @@ export function ListOfEntries({
   setListTransactions,
   allTransactions,
   setAllTransactions,
+  typeOfTransactions,
+  setTypeOfTransactions,
 }) {
   return (
     <section className="list-of-entries">
@@ -15,6 +17,8 @@ export function ListOfEntries({
           setListTransactions={setListTransactions}
           allTransactions={allTransactions}
           setAllTransactions={setAllTransactions}
+          typeOfTransactions={typeOfTransactions}
+          setTypeOfTransactions={setTypeOfTransactions}
         />
       ) : (
         <NoEntries />

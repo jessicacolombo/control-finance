@@ -12,6 +12,8 @@ export function Dashboard({
   setListTransactions,
   allTransactions,
   setAllTransactions,
+  setTypeOfTransactions,
+  typeOfTransactions,
 }) {
   return (
     <div>
@@ -35,14 +37,16 @@ export function Dashboard({
         </div>
         <div className="div-finances-list">
           <FinancesSumary
-            listTransactions={listTransactions}
-            setAllTransactions={setAllTransactions}
+            setTypeOfTransactions={setTypeOfTransactions}
+            typeOfTransactions={typeOfTransactions}
           />
           <ListOfEntries
             listTransactions={listTransactions}
             setListTransactions={setListTransactions}
             allTransactions={allTransactions}
             setAllTransactions={setAllTransactions}
+            typeOfTransactions={typeOfTransactions}
+            setTypeOfTransactions={setTypeOfTransactions}
           />
         </div>
       </div>

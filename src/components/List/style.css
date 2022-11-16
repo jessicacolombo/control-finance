@@ -1,0 +1,58 @@
+.list-of-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--grey-1);
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+  border-radius: 5px;
+  color: var(--grey-4);
+}
+
+.card.entrada {
+  border-left: 4px solid var(--color-secondary);
+}
+
+.card.saida {
+  border-left: 4px solid var(--grey-2);
+}
+
+.card-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-content-text > h3 {
+  font-size: var(--headline);
+  font-weight: 700;
+}
+
+.card-content-text > span {
+  font-size: var(--title-4);
+  color: var(--grey-3);
+}
+
+.card-content-value {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.card-content-value > span {
+  font-size: var(--title-4);
+}
+
+.card-content-value > button {
+  border: 1px solid transparent;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--grey-4);
+  background-color: var(--grey-2);
+  border-radius: 4px;
+}

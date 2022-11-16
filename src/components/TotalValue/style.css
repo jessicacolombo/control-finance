@@ -1,0 +1,31 @@
+.total-value {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--grey-2);
+  border-radius: 3px;
+  padding: 20px 15px;
+}
+
+.total-value__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.total-value__texts > h2 {
+  font-size: var(--headline);
+  font-weight: 700;
+  color: var(--grey-4);
+}
+
+.total-value__texts > span {
+  color: var(--grey-3);
+  font-size: var(--title-4);
+}
+
+.total-value__balance {
+  font-size: var(--headline);
+  font-weight: 700;
+  color: var(--color-primary);
+}
